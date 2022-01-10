@@ -25,4 +25,9 @@ Finally, I executed analysis on the suspension coil data to get t-test data on e
 ![](Images/Lots.PNG)
 
 1. First, I ran a t-test on the complete coil dataset. Using the population mean of coil PSI set at 1500, we found that our actual mean is 1498.78. The purpose of this t-test is to determine if the PSI across all lots is statistically different than the population mean. The p-value of this test is 0.06, just shy of statistical difference. As a result, we can conclude that there is no difference between the total of the lots and the population PSI Mean. 
-2. I then ran a t-test on each lot compared to the population mean. 
+2. I then ran a t-test on each lot compared to the population mean. Lot 1 had an identical mean to the population and a p-value of 1, so there is no difference between this sample and the population. Lot 2 had a mean slightly higher than the population, coming in a 1500.2, and a p-value of 0.60. Similar to Lot 1, Lot 2 is not statistically different from the population. Lot 3 had a mean of 1496.14 and a p-value of 0.04. Because of the p-value calculated, there is a statistical difference between Lot 3 and the population.
+
+## Study Design: MechaCar vs Competition
+In addition to the analysis provided, Jeremy has also been asked to design a statistical study on how to measure MechaCar against the competition. Below is an idea of how they could accomplish that study. In the study, we will be interested in how well the MechaCar sells against the competition, so we will use cost of the MechaCar as our metric as that drives sales. We will need to  
+1. Metric - Some of the previously provided metrics (in the MPG dataset) could be reused in this study, as all metrics should be available from the competitors. We can collect MPG, vehicle length and weight, ground clearence, drivetrain, and then additional metrics such as horsepower, safety rating, and finally the cost of the vehicle. 
+2. Hypothesis - The null hypothesis 
