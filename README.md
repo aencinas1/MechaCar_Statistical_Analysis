@@ -19,4 +19,6 @@ After running analysis on suspension coils data, we were able to collect the fol
 
 1. From the provided data and the resulting summaries, we can see the variance of the suspension coils. The manufactuing team has stated that variance must not exceed 100 PSI. The summary of all lots (total summary) indicates that the variance is 62.29 PSI. From this test alone, we can conclude that all manufacturing lots in total are compliant to specification, as 62 is lower than the standard of 100. However, when we break the summaries down by lot batch, we have a different story. Lot 1 and 2 are compliant with a variance of 0.97 and 7.46 respectively. Lot 3, however, has a variance of 170.28, which does not meet the set specification. Because of the variance of Lot 3, not all lots meet the specification of under 100 PSI.
 
+## T-Tests on Suspension Coils
+Finally, I executed analysis on the suspension coil data to get t-test data on each Lot:
 
