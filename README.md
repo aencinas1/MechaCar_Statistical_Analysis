@@ -22,3 +22,7 @@ After running analysis on suspension coils data, we were able to collect the fol
 ## T-Tests on Suspension Coils
 Finally, I executed analysis on the suspension coil data to get t-test data on each Lot:
 
+![](Images/Lots.PNG)
+
+1. First, I ran a t-test on the complete coil dataset. Using the population mean of coil PSI set at 1500, we found that our actual mean is 1498.78. The purpose of this t-test is to determine if the PSI across all lots is statistically different than the population mean. The p-value of this test is 0.06, just shy of statistical difference. As a result, we can conclude that there is no difference between the total of the lots and the population PSI Mean. 
+2. I then ran a t-test on each lot compared to the population mean. 
